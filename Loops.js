@@ -94,58 +94,107 @@ for(let i = 1; i <= 20; i++){
 
 //Exercise 3.3 
 
- let f = 0;
+// let f = 0;
 
-for(let d = 1; d <= 100; d++){
-    f = f + d
-    console.log(f);
-}
+//for(let d = 1; d <= 100; d++){
+//    f = f + d
+//    console.log(f);
+//}
 
 //Exercise 3.4
 
-const numbers = [1, 2, 3, 4, 5]
-console.log( numbers)
+//const numbers = [1, 2, 3, 4, 5]
+//console.log( numbers)
 
 
 //Exercise 3.5 
 
-const number = [3, 7, 2, 5, 10, 6]
+//const number = [3, 7, 2, 5, 10, 6]
 
- console.log(number[4])
+ //console.log(number[4])
 
  //Exercise 4: While Loops
 
  //Exercise 4.1
 
- let numloop = 1;
+// let numloop = 1;
 
- while( numloop <= 10){
-    console.log(numloop);
- }
+// while( numloop <= 10){
+//    console.log(numloop);
+//    numloop++;
+// }
 
 //Exercise 4.2
 
-function evenNum(){
-     let n = 1
-     while( n <= 20, n+= 2){
-        console.log(n)
-     }
-}
-evenNum();
+//function evenNum(){
+//     let n = 1
+//     while( n <= 20){
+//        console.log(n)
+ //       n+= 2
+//     }
+//}
+//evenNum();
 
 //Exercise 4.3 
 
-let e = 0; 
-let t = 1;
-while( t <= 100, t++ ){
-    e += t
-    console.log(t);
-}
+//let e = 0; 
+//let t = 1;
+//while( t <= 100 ){
+ //   console.log(t);
+ //    t++;
+ //    e += t;
+//}
 
 //Exercise 4.4
     
-let o = 5;
+//let o = 5;
 
-while( o <= 50, o +=5 ){
-    console.log(o);
-}
+//while( o <= 50 ){
+  //  console.log(o);
+  //    o+=5;
+//}
+
+//Exercise 5: DoWhile Loops
+
+//Exercise 5.1
+
+//let k = 1;
+
+//do{
+//    console.log (k);
+//    k++;
+//}while(k <= 10);
+
+//Exercise 5.2 
+
+//let f = 0;
+
+//for(let d = 1; d <= 100; d++){
+  //  f = f + d
+    //console.log(f);
+//}
+
+//let m = 1;
+//let h = 0;
+//do{
+//  console.log(m);
+//  m++;
+//  h += m;
+//}while( m<=100 );
+
+
+//Exercise 5.3
+
+let numDo = 0;
+let num = 1> 10 ;
+
+do{
+  num= prompt("Enter number greater than 10")
+  if(numDo === num){
+    console.log("Congratulations");
+  }else{
+    console.log("Give correct number...")
+  }
+}while(num !== 10)
+
+
