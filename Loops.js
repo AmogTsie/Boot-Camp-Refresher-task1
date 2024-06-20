@@ -185,16 +185,28 @@ for(let i = 1; i <= 20; i++){
 
 //Exercise 5.3
 
-let numDo = 0;
-let num = 1> 10 ;
+//let numDo ;
+
+//do{
+ // numDo= prompt("Enter number greater than 10")
+ // if(numDo > 10){
+ //   console.log("Congratulations");
+ // }else{
+ //   console.log("Give correct number...")
+ // }
+//}while(numDo <= 10)
+
+
+//Exercise 5.4
+
+let guess =""
+let rightguess = "4"
 
 do{
-  num= prompt("Enter number greater than 10")
-  if(numDo === num){
-    console.log("Congratulations");
-  }else{
-    console.log("Give correct number...")
-  }
-}while(num !== 10)
-
-
+  guess = prompt("Guess a number between 1 and 10");
+    if(guess === rightguess){
+      console.log("Yipppy you did it!!")
+    }else{
+      console.log("Try again kiddo.")
+    } 
+}while( guess >= 10)
